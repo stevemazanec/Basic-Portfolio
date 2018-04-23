@@ -46,7 +46,7 @@ li a {
 }
 
 body {
-    background-image: url ("assets/images/circles-light.png");
+    background-image: url(../images/circles-light.png);
     background-color: #cccccc;
 }
 
@@ -99,18 +99,24 @@ h2 {
 }
 
 #black-and-gold {
-    position: absolute;
+    position: relative;
     width: 380px;
     text-align: center;
     top: 35%;
     left: 0%;
     padding: 10px;
-    color:  white;
+}
+
+#black-and-gold-text {
+    position: absolute;
+    color: white;
     background-color: #4aaaa5;
+    top: 75px;
+
 }
 
 #soccer {
-    position: absolute;
+    position: relative;
     width: 380px;
     text-align: center;
     top: 35%;
@@ -118,6 +124,10 @@ h2 {
     padding: 10px;
     color: white;
     background-color: #4aaaa5;
+}
+
+#soccer-text {
+    position: absolute;
 }
 
 #sushi {
