@@ -13,9 +13,12 @@
     text-align: center;
     font-size: 22px;
     font-family: 'Georgia', times, 'Times New Roman', serif;
+    font-weight: bold;
     padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     float: left;
-    margin-left: 175px;
+    margin-left: 185px;
 }
 
 ul {
@@ -31,6 +34,14 @@ li {
 li a {
     display: inline;
     padding: 15px;
+}
+
+a:link {
+    color: #777777;
+}
+
+a:visited {
+    color: #777777;
 }
 
 #contact {
@@ -54,11 +65,14 @@ body {
     float: left;
     width: 200px;
     padding-right: 15px;
+    margin-top: 20px;
 }
 
 p {
     color: #777777;
     font-family: 'arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    margin-top: 20px;
+    line-height: 1.6;
 }
 
 h2 {
@@ -66,6 +80,12 @@ h2 {
     color: #4aaaa5; 
     border-bottom: 2px solid #cccccc;
     padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+form {
+    margin-top:30px;
 }
 
 #container {
@@ -73,6 +93,24 @@ h2 {
     background-color: white;
     border-color: #ffffff;  
     margin: auto;
+    padding: 20px;
+}
+
+#indexContainer {
+    width: 960px;
+    background-color: white;
+    border-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    height: 350px;
+}
+
+#portfolioContainer {
+    width: 960px;
+    background-color: white;
+    border-color: #ffffff;
+    margin: auto;
+    height: 580px;
     padding: 20px;
 }
 
@@ -96,67 +134,98 @@ h2 {
 #projects {
     position: relative;
     font-family: 'arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    margin-bottom: 50px;
 }
 
 #black-and-gold {
+    float: left;
     position: relative;
     width: 380px;
     text-align: center;
     top: 35%;
     left: 0%;
-    padding: 10px;
+    margin: 10px 10px 20px 10px;
+    padding-right: 20px;
 }
 
 #black-and-gold-text {
+    float: left;
     position: absolute;
     color: white;
     background-color: #4aaaa5;
-    top: 75px;
-
+    top: 65%;
+    width: 380px;
+    text-align: center;
+    padding: 10px;
 }
 
 #soccer {
+    float: left;
     position: relative;
     width: 380px;
     text-align: center;
-    top: 35%;
-    left: 42%;
-    padding: 10px;
-    color: white;
-    background-color: #4aaaa5;
+    margin: 10px 10px 20px 10px;
+    padding-left: 20px;
 }
 
 #soccer-text {
+    float: left;
     position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    top: 65%;
+    width: 380px;
+    text-align: center;
+    padding: 10px;
 }
 
 #sushi {
-    position: absolute;
+    float: left;
+    position: relative;
     width: 380px;
     text-align: center;
-    top: 87%;
     left: 0%;
-    padding: 10px;
+    margin: 20px 10px 10px 10px;
+    padding-right: 20px;
+}
+
+#sushi-text {
+    float: left;
+    position: absolute;
     color: white;
     background-color: #4aaaa5;
+    top: 65%;
+    width: 380px;
+    text-align: center;
+    padding: 10px;
 }
 
 #discoBall {
-    position: absolute;
+    float: left;
+    position: relative;
     width: 380px;
-    text-align: center;
-    top: 87%;
-    left: 42%;
-    padding: 10px;
+    margin: 20px 10px 10px 10px;
+    padding-left: 20px; 
+}
+
+#discoBall-text {
+    float: left;
+    position: absolute;
     color: white;
     background-color: #4aaaa5;
+    top: 65%;
+    width: 380px;
+    text-align: center;
+    padding: 10px;
 }
 
 footer {
+    clear: both;
     background-color: #666666;
     color: #cccccc;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
     font-size: 12px;
     border-top: 6px solid #4aaaa5;
     position: fixed;
